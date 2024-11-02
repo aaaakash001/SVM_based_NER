@@ -1,0 +1,48 @@
+DatasetDict({
+    train: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags'],
+        num_rows: 14041
+    })
+    validation: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags'],
+        num_rows: 3250
+    })
+    test: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags'],
+        num_rows: 3453
+    })
+})
+DatasetDict({
+    train: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags', 'features'],
+        num_rows: 14041
+    })
+    validation: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags', 'features'],
+        num_rows: 3250
+    })
+    test: Dataset({
+        features: ['id', 'tokens', 'pos_tags', 'chunk_tags', 'ner_tags', 'features'],
+        num_rows: 3453
+    })
+})
+Sentence-level Accuracy: 0.9558
+Sentence-level Precision: 0.9626
+Sentence-level Recall: 0.9558
+Sentence-level F1 Score: 0.9548
+Sentence-level F1 Score: 0.9543
+Sentence-level F1 Score: 0.9581
+
+Confusion Matrix:
+ [[37739   584]
+ [  392  7720]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99     38323
+           1       0.93      0.95      0.94      8112
+
+    accuracy                           0.98     46435
+   macro avg       0.96      0.97      0.96     46435
+weighted avg       0.98      0.98      0.98     46435
+

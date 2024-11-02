@@ -14,7 +14,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
-
+nltk.download('punkt_tab')
 
 tag_colors = {
     1: "#8FBC8F",  # Darker Green

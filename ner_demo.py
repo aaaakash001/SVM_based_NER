@@ -16,6 +16,8 @@ nltk.download('maxent_ne_chunker')
 nltk.download('words')
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('maxent_ne_chunker_tab')
+
 
 tag_colors = {
     1: "#8FBC8F",  # Darker Green

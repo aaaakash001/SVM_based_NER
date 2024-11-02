@@ -39,7 +39,7 @@ To load the dataset:
 from datasets import load_dataset
 dataset = load_dataset('conll2003')
 print(dataset)
----
+```
 
 ## Feature Engineering
 
@@ -110,4 +110,4 @@ These high scores indicate strong model performance on the NER task, with high a
 
 1. **Install Dependencies**:
    ```bash
-   pip install libsvm nltk datasets
+   pip install scikit-learn nltk datasets
